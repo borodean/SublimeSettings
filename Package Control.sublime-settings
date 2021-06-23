@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages": [
+	],
+	"installed_packages": [
+		"Evaluate",
+		"JsPrettier",
+		"LSP",
+		"LSP-css",
+		"LSP-eslint",
+		"LSP-html",
+		"LSP-json",
+		"LSP-stylelint",
+		"LSP-typescript",
+		"Package Control",
+		"PlainNotes",
+	],
+}
