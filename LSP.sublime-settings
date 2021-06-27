@@ -1,0 +1,9 @@
+{
+	"clients": {
+		"ccls": {
+			"command": ["ccls"],
+			"enabled": true,
+			"selector": "source.c"
+		}
+	}
+}
