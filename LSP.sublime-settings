@@ -5,5 +5,8 @@
 			"enabled": true,
 			"selector": "source.c"
 		}
+	},
+	"lsp_code_actions_on_save": {
+		"source.fixAll.eslint": true
 	}
 }
