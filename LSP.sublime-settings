@@ -1,12 +1,16 @@
 {
 	"clients": {
 		"ccls": {
-			"command": ["ccls"],
+			"command": [
+				"ccls"
+			],
 			"enabled": true,
 			"selector": "source.c"
 		},
 		"gopls": {
-			"command": ["gopls"],
+			"command": [
+				"gopls"
+			],
 			"enabled": true,
 			"selector": "source.go",
 			"initializationOptions": {
