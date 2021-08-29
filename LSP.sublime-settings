@@ -4,6 +4,14 @@
 			"command": ["ccls"],
 			"enabled": true,
 			"selector": "source.c"
+		},
+		"gopls": {
+			"command": ["gopls"],
+			"enabled": true,
+			"selector": "source.go",
+			"initializationOptions": {
+				"experimentalWorkspaceModule": false
+			}
 		}
 	},
 	"lsp_code_actions_on_save": {
