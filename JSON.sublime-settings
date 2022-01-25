@@ -1,3 +1,7 @@
 {
-	"extensions": [".eslintrc"]
+	"extensions": [
+		".eslintrc",
+		"cjs",
+		"mjs"
+	]
 }
