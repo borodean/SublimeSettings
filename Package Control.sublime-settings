@@ -1,8 +1,10 @@
 {
 	"bootstrapped": true,
-	"in_process_packages": [
-	],
+	"in_process_packages": [],
 	"installed_packages": [
+		"ApacheConf",
+		"Case Conversion",
+		"Cucumber",
 		"GraphQL",
 		"JsPrettier",
 		"LSP",
@@ -10,11 +12,13 @@
 		"LSP-eslint",
 		"LSP-graphql",
 		"LSP-html",
+		"LSP-intelephense",
 		"LSP-json",
 		"LSP-stylelint",
+		"LSP-tailwindcss",
 		"LSP-typescript",
 		"Package Control",
 		"PlainNotes",
-		"Sass",
-	],
+		"Sass"
+	]
 }
