@@ -1,0 +1,13 @@
+// Settings in here override those in "LSP-tailwindcss/LSP-tailwindcss.sublime-settings"
+// https://github.com/ben-rogerson/twin.macro/discussions/227
+{
+  "settings": {
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)", // tw`...`
+      "tw=\"([^\"]*)", // <div tw="..." />
+      "tw={\"([^\"}]*)", // <div tw={"..."} />
+      "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+      "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+    ]
+  }
+}
