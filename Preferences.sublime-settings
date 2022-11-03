@@ -3,6 +3,7 @@
 	"color_scheme": "auto",
 	"control_character_style": "names",
 	"default_line_ending": "unix",
+	"dictionary": "Packages/User/Ukrainian_uk_UA.dic",
 	"draw_white_space": ["all"],
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "Cyrillic (Windows 1251)",
