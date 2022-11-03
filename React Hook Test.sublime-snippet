@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+import { renderHook } from '@testing-library/react-hooks';
+
+import { ${1:useStatusFilter} } from './${1:useStatusFilter}';
+
+it('works', () => {
+  const { result } = renderHook(() => ${1:useStatusFilter}());
+  expect(result.current).toBe(true);
+});
+]]></content>
+  <!-- Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

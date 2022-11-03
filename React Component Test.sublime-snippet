@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+import { render, screen } from '@testing-library/react';
+import React from 'react';
+
+import { ${1:StatusPicker} } from './${1:StatusPicker}';
+
+it('renders', () => {
+  render(<${1:StatusPicker} />);
+  screen.debug();
+});
+]]></content>
+  <!-- Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
