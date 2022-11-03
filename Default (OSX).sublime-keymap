@@ -55,5 +55,17 @@
 				"operand": false
 			}
 		]
+	},
+	// Code Actions
+	{
+		"keys": ["f1"],
+		"command": "lsp_code_actions",
+		"context": [
+			{
+				"key": "lsp.session_with_capability",
+				"operator": "equal",
+				"operand": "codeActionProvider"
+			}
+		]
 	}
 ]
