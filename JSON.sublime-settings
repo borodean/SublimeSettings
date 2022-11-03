@@ -1,7 +1,7 @@
 {
 	"extensions": [
 		".eslintrc",
-		"cjs",
-		"mjs"
-	]
+		".sublime-keymap",
+		".sublime-settings",
+	],
 }
