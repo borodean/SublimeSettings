@@ -19,7 +19,8 @@
 		}
 	},
 	"lsp_code_actions_on_save": {
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": true,
+		"source.fixAll.gopls": true
 	},
 	"lsp_format_on_save": false
 }
