@@ -1,13 +1,10 @@
 <snippet>
   <content><![CDATA[
-import { renderHook } from '@testing-library/react-hooks';
+export interface ${1:Component}Props {}
 
-import { use${1:Hook} } from './use${1:Hook}';
-
-it('works', () => {
-  const { result } = renderHook(() => use${1:Hook}());
-  expect(result.current).toBe(true);
-});
+export function ${1:Component}({}: ${1:Component}Props) {
+  return null;
+}
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->
   <!-- <tabTrigger>hello</tabTrigger> -->
