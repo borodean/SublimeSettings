@@ -1,17 +1,19 @@
 <snippet>
   <content><![CDATA[
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { Meta, StoryObj } from '@storybook/react';
 
 import { ${1:Component} } from './${1:Component}';
 
-export const Default: ComponentStory<typeof ${1:Component}> = args => <${1:Component} {...args} />;
+export const Default: StoryObj<typeof ${1:Component}> = {
+  render: args => <${1:Component} {...args} />,
+};
 
-const story: ComponentMeta<typeof ${1:Component}> = {
+const meta: Meta<typeof ${1:Component}> = {
   title: 'Core / Atoms / ${1:Component}',
   component: ${1:Component},
 };
 
-export default story;
+export default meta;
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->
   <!-- <tabTrigger>hello</tabTrigger> -->
