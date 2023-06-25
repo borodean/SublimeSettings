@@ -22,5 +22,6 @@
 		"source.fixAll.eslint": true,
 		"source.fixAll.gopls": true
 	},
-	"lsp_format_on_save": false
+	"lsp_format_on_save": false,
+	"show_diagnostics_panel_on_save": 4,
 }
