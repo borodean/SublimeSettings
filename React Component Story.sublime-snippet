@@ -4,16 +4,14 @@ import { Meta, StoryObj } from '@storybook/react';
 
 import { ${1:Component} } from './${1:Component}';
 
-export const Default: StoryObj<typeof ${1:Component}> = {
-  render: args => <${1:Component} {...args} />,
-};
+export const Default: StoryObj<typeof ${1:Component}> = {};
 
-const meta: Meta<typeof ${1:Component}> = {
-  title: 'Core / Atoms / ${1:Component}',
+const story: Meta<typeof ${1:Component}> = {
   component: ${1:Component},
+  args: {},
 };
 
-export default meta;
+export default story;
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->
   <!-- <tabTrigger>hello</tabTrigger> -->
