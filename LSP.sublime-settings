@@ -24,4 +24,8 @@
 	},
 	"lsp_format_on_save": false,
 	"show_diagnostics_panel_on_save": 4,
+	"show_references_in_quick_panel": true,
+	"log_debug": true,
+	"inhibit_snippet_completions": true,
+	"inhibit_word_completions": true,
 }
