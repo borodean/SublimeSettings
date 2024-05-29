@@ -21,9 +21,7 @@
 	"hide_tab_scrolling_buttons": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages": [
-		"Vintage",
-	],
+	"ignored_packages": ["Vintage"],
 	"index_files": false,
 	"ruler_style": "solid",
 	"rulers": [80],
