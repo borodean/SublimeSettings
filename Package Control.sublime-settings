@@ -9,6 +9,7 @@
 		"GraphQL",
 		"JsPrettier",
 		"LSP",
+		"LSP-copilot",
 		"LSP-css",
 		"LSP-eslint",
 		"LSP-file-watcher-chokidar",
