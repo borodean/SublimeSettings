@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "Discard Other Tabs",
+    "command": "discard_other_tabs"
+  },
+  {
+    "caption": "Discard Other Tabs and Windows",
+    "command": "discard_other_tabs",
+    "args": { "all_windows": true }
+  }
+]
