@@ -1,0 +1,8 @@
+{
+  "replacements": {
+    "strip_m503": {
+      "find": "(?:[\\s\\S]*Send: M503\\n|^Recv: ok[\\s\\S]*|^Recv: (?:echo:)?)",
+      "replace": "",
+    },
+  }
+}

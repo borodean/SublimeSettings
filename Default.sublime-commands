@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "Reg Replace: M503",
+    "command": "reg_replace",
+    "args": {
+      "replacements": [
+        "strip_m503"
+      ]
+    }
+  },
+]
