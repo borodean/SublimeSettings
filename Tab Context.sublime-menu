@@ -1,0 +1,13 @@
+[
+  { "caption": "-" },
+  {
+    "caption": "Discard Other Tabs",
+    "command": "discard_other_tabs",
+    "args": { "group": -1, "index": -1 }
+  },
+  {
+    "caption": "Discard Other Tabs and Windows",
+    "command": "discard_other_tabs",
+    "args": { "all_windows": true, "group": -1, "index": -1 }
+  }
+]
